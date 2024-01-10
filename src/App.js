@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Hashrouter, Routes, Route } from "react-router-dom";
 // import Home from "./Home";
 // import About from "./About";
 // import Detail from "./Detail";
@@ -10,7 +10,7 @@ const Detail = React.lazy(() => import("./Detail"));
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -38,7 +38,7 @@ function App() {
           }
         />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
