@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[769],{769:(e,s,r)=>{r.r(s),r.d(s,{default:()=>n});r(791);var i=r(134),t=r(184);const n=()=>{const{register:e,handleSubmit:s,formState:{errors:r}}=(0,i.cI)();return(0,t.jsxs)("div",{children:[(0,t.jsx)("h2",{children:"this is homepage"}),(0,t.jsxs)("form",{onSubmit:s((e=>console.log(e))),children:[(0,t.jsx)("input",{...e("firstname",{required:!0})}),r.firstname&&(0,t.jsx)("p",{children:" Required."}),(0,t.jsx)("input",{type:"submit"})]})]})}}}]);
+//# sourceMappingURL=769.f5ed2359.chunk.js.map
